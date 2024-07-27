@@ -71,3 +71,36 @@ This is a clone of Zooq.app developed using React.js and Context API for state m
 
 ## Folder Structure
 
+## Folder Structure
+
+zooq-clone/
+├── client/ # Frontend application
+│ ├── public/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── context/
+│ │ ├── pages/
+│ │ ├── styles/
+│ │ └── App.js
+│ ├── package.json
+│ └── ...other files
+├── server/ # Backend application
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── app.js
+│ ├── server.js
+│ ├── package.json
+│ └── ...other files
+├── README.md
+└── ...other files
+
+less
+Copy code
+
+## Usage
+
+- **Task Management**: Navigate to the tasks page to create, update, and delete tasks.
+- **Collaboration**: Share tasks with team members by inviting them via email.
+- **Progress Tracking**: Use the progress bar to track task completion.
+- **Payments**: Navigate to the payments page to make secure transactions.
