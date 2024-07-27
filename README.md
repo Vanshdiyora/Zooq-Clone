@@ -69,35 +69,6 @@ This is a clone of Zooq.app developed using React.js and Context API for state m
 
 7. Open your browser and navigate to `http://localhost:3000`
 
-## Folder Structure
-
-## Folder Structure
-
-zooq-clone/
-├── client/ # Frontend application
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── context/
-│ │ ├── pages/
-│ │ ├── styles/
-│ │ └── App.js
-│ ├── package.json
-│ └── ...other files
-├── server/ # Backend application
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── app.js
-│ ├── server.js
-│ ├── package.json
-│ └── ...other files
-├── README.md
-└── ...other files
-
-less
-Copy code
-
 ## Usage
 
 - **Task Management**: Navigate to the tasks page to create, update, and delete tasks.
