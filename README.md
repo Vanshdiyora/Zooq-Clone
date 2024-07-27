@@ -4,8 +4,6 @@ This is a clone of Zooq.app developed using React.js and Context API for state m
 
 ## Features
 
-- **Task Management**: Create, update, and delete tasks.
-- **Collaboration**: Share tasks with team members and collaborate in real-time.
 - **Progress Tracking**: Track the progress of tasks with visual indicators.
 - **Payment Functionality**: Secure transactions using integrated payment gateway.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
@@ -17,9 +15,8 @@ This is a clone of Zooq.app developed using React.js and Context API for state m
 - **Frontend**: React.js, Context API
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
-- **Payment Gateway**: [Specify the payment gateway used, e.g., Stripe, PayPal]
+- **Payment Gateway**: razopay
 
-## Installation
 
 ### Prerequisites
 
