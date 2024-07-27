@@ -1,0 +1,198 @@
+.header {
+  overflow: hidden;
+  padding-top: 4rem;
+  padding-bottom: 1.5rem;
+}
+
+.header-main{
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(86, 107, 220, .18);
+}
+.header-container{
+  max-width: 1350px;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.header-center {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.header-right{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 15px;
+}
+.header-center li {
+      padding: 10px 17px;
+    font-size: 20px;
+}
+.header-right li{
+  list-style: none;
+    font-size: 20px;
+}
+.header-cart-icon{
+    position: relative;
+    margin-left: 25px;
+    margin-top: 3px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.header-link {
+  display: flex;
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+    
+}
+
+.cart-header {
+  display: flex;
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+    
+}
+/* .cart-header{
+} */
+/* .header-link:hover {
+  color: #007bff;
+} */
+
+.active {
+  text-decoration: none;
+  font-size: 20px;
+  color: #007bff;
+}
+
+
+.cart-num {
+  width: 19px;
+    height: 19px;
+    color: #fff;
+    position: relative;
+    top: -8px;
+    right: 8px;
+    font-weight: 700;
+    background: #000;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.GridButton {
+  display: none;
+  /* opacity: 0; */
+}
+
+.CrossButton {
+  display: none;
+  /* opacity: 0; */
+
+}
+.header-container img{
+  width: 95px;
+  /* padding-left: 44px;
+  margin-left: 50px; */
+
+
+}
+.sign-out-btn{
+  position: absolute;
+  top: 73px;
+  background-color: #000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+  z-index: 1;
+  display: flex;
+  padding: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  width: 189px;
+  border-top: 1px solid #fff;
+  justify-content: center;
+}
+@media screen and (max-width:750px) {
+  .GridButton{
+    display: flex;
+    font-size: 25px;
+  }
+  /* .header-container img{
+    padding-left: 24px;
+  } */
+  .header{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .header-container{
+    padding: 15px 0px 15px 24px;
+    align-items: start;
+  }
+  .cross-btn {
+    align-self: end;
+    width: 120px;
+}
+
+.CrossButton {
+    display: flex;
+    background-color: #666363;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+
+  .header-menu {
+    list-style: none;
+    display: flex;
+    z-index: 100;
+    position: absolute;
+    top: -5px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    position: absolute;
+    height: 37vh;
+    padding: 20px 40px;
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    border-bottom:10px solid white;
+  }
+  .active{
+    color: #007bff;
+  
+  }
+  .header-center {
+    display: none;
+  }
+  .header-link{
+    color: white;
+  }
+  .header-link:hover {
+    color: #007bff;
+  }
+  
+  #login{
+    display: none;
+  }
+  .header-container-right{
+    display: flex;
+  }
+  /* .cart-header{
+    padding-right: 16px;
+  } */
+}

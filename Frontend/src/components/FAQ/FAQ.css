@@ -1,0 +1,47 @@
+.faq{
+    padding: 44px;
+    /* margin-bottom: 100px; */
+}
+@media (max-width:750px){
+    .faq{
+        padding: 24px;
+    }
+}
+.faq h1{
+    font-size: 40px;
+    font-weight: 900;
+    word-spacing: 5px;
+    /* letter-spacing: 3px; */
+    /* line-height: 10px; */
+}
+.faq-container{
+    border-bottom: 1px solid rgba(163, 163, 163, 0.7);
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+.question.select p{
+    font-weight: bold;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+}
+
+.answer.show{
+    height: auto;
+    max-height: 9999px;
+    margin-bottom: 35px;
+}
+
+.plus-btn{
+    font-size: 30px;
+    color: #a3a3a3;
+}

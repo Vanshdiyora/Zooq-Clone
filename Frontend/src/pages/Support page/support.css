@@ -1,0 +1,153 @@
+.support-cont{
+    width: 100%;
+
+}
+#support{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+#support{
+    padding-left: 44px;
+    padding-right: 44px;
+}
+@media (max-width:768px){
+    #support{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .support-s{
+        align-items: center;
+        gap: 20px;
+    }
+}
+.support-s {
+    width: 100%;
+    padding: 40px 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.support-s img {
+    height: 500px;
+    width: auto;
+    /* padding: 5px 90px;
+    margin-bottom: 120px; */
+}
+.support-s h2{
+    margin-bottom: 10px;
+    padding: 0;
+}
+.support-s p{
+    padding: 0;
+    margin-top: 0;
+}
+.support-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    /* gap: 50px; */
+}
+
+.input-text {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+
+}
+.input-wrapper{
+    width: 50%;
+}
+.input-wrapper input {
+    height: 70px;
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.msg input {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    height: 120px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 17px;
+    line-height: 4;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px; 
+    display: block; 
+}
+
+.input-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.input-wrapper .error {
+    position: absolute;
+    /* bottom: -20px;  */
+    left: 0;
+}
+
+
+.success-message{
+    border: 2px solid green;
+    padding: 2px;
+    color: green;
+}
+
+@media (max-width:1200px) {
+    .support-s img{
+        width: 350px;
+        height: auto;
+    }
+}
+
+@media (max-width:768px) and (min-width:425px){
+    .support-s{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+        /* align-content: stretch; */
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+.form-s{
+    width: 100%;
+}
+@media (max-width:450px){
+    /* #support{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    } */
+    .support-s img{
+        width: 300px;
+        height: auto;
+    }
+    .input-text{
+        flex-direction: column;
+    }
+  
+    .support-s{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+        /* align-content: stretch; */
+        justify-content: center;
+        align-items: center;
+    }
+}

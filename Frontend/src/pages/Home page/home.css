@@ -1,0 +1,263 @@
+body{
+    width: 100%;
+    margin-right: 0;
+}
+.video-container {
+    margin-top: 40px;
+    padding: 16px 44px;
+    display: flex;
+    flex-wrap: nowrap; /* Keep elements in line by default */
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media (max-width: 1060px) {
+    .video-container {
+        flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    }
+}
+
+.video-text1,
+.elevate-heading {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: black;
+    justify-content: center;
+    margin: 0;
+    font-size: 47px;
+    line-height: 65px;
+}
+
+@media (min-width: 640px) {
+    .video-text1 {
+        font-size: 55px;
+        line-height: 78px;
+    }
+}
+
+@media (max-width: 750px) {
+    .video-container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+.video-text2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 18px;
+    line-height: 31px;
+    margin-top: 20px;
+    max-width: 470px;
+}
+
+.video-btn {
+    color: white;
+    background-color: #0071E3;
+    padding: 16px 40px;
+    font-weight: bold;
+    font-size: large;
+    margin: 20px 0;
+    border-radius: 9999px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.video-btn:hover {
+    background-color: #005bb5;
+}
+
+.autoVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .autoVideo {
+        margin: 0;
+        width: 60%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .autoVideo {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .autoVideo {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .autoVideo {
+        width: 100%;
+    }
+}
+
+
+/* elevate */
+
+
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0;
+    /* mt-10 */
+
+   
+}
+
+
+
+
+/* Headings */
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    /* Equivalent to font-extrabold */
+    color: black;
+    margin: 0;
+    font-size: 40px;
+    /* xs:text-[40px] */
+    line-height: 60px;
+    /* leading-[60px] */
+    width: 100%;
+}
+
+@media (min-width: 640px) {
+    h2 {
+        line-height: 54px;
+        /* xs:leading-[54px] */
+    }
+}
+
+/* Paragraphs */
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    /* Equivalent to font-normal */
+    color: #1e1e1e;
+    font-size: 18px;
+    line-height: 30.8px;
+    margin-top: 20px;
+    /* mt-5 */
+}
+
+.get-card-link {
+    color: white;
+    background-color: #0071E3;
+    padding: 16px 40px;
+    font-weight: bold;
+    margin: 20px 0;
+    /* Equivalent to my-5 */
+    border-radius: 9999px;
+    /* Equivalent to rounded-full */
+    /* display: inline-block; */
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    /* Ensure no border */
+}
+
+.get-card-link:hover {
+    background-color: #005bb5;/
+}
+
+/* Feature Cards */
+/* Feature Cards */
+.elevate {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 44px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    transition: background-color 0.3s, color 0.3s;
+    /* height: 30vh; */
+    justify-content: center;
+    align-items: center; 
+}
+
+@media (max-width:1060px){
+    .elevate{
+    flex-wrap: wrap;
+}
+}
+
+.ele-head {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+    transition: color 0.3s;
+}
+
+.elevate-left p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    /* Equivalent to font-normal */
+    color: #1e1e1e;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    transition: color 0.3s;
+}
+
+.elevate-left {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px; /* Adjust the gap to space out items */
+}
+
+.property-item:hover {
+    background-color: #0071E3;
+    color: white;
+    border-radius: 20px;
+}
+
+.property-item:hover h4,
+.property-item:hover p {
+    color: white;
+}
+@media (max-width:750px){
+.elevate {
+    padding: 24px;
+    /* max-width: 700px; */
+}}
+.elevate-right{
+    width:100%;
+}
+.elevate-left img {
+    width: 64px;
+    height: 64px;
+    margin: 19px;
+}
+
+.elevate-left div {
+    margin: 0;
+    padding: 0;
+}
+
+.property-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add margin-bottom to space out property items */
+}

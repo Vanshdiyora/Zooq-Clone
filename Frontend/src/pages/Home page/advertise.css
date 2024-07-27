@@ -1,0 +1,144 @@
+.adv-container {
+    padding: 44px 44px;
+}
+
+.adv-container-1 {
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.adv-container-1 h2 {
+    font-size: 38px;
+    font-weight: 900;
+    color: #333;
+    margin-bottom: 16px;
+}
+
+.adv-container-1 p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 32px;
+}
+
+.adv-container-2 {
+    display: flex;
+    /* width: 100%; */
+    /* align-items: baseline; */
+    justify-content: space-around; /* Ensure items are spaced evenly */
+    text-align: center;
+    flex-wrap: nowrap; /* Keep elements in line by default */
+}
+
+@media (max-width: 1200px) {
+    .adv-container-2 {
+        flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    }
+}
+
+.adv-item {
+    text-align: center;
+    padding: 0 15px 40px;
+    flex: 1; /* Ensure items take equal space */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+.image_cont{
+    width: 290px;
+    height: 375px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adv-item img {
+    width: 290px;
+    height: 375px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+
+.adv-item h4 {
+    margin: 0;
+    padding: 0;
+    color: #1e1e1e;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.adv-item p {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    color: #1e1e1e;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+
+
+.analytic {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 44px;
+}
+
+.statsImg{
+    padding: 30px;
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.ana-right {
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Add padding to ensure content doesn't stick to edges */
+}
+
+@media (max-width: 1060px) {
+    .analytic {
+        flex-wrap: wrap;
+    }
+
+    .statsImg {
+        width: 80%; /* Reduce image width for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .statsImg{
+        width: 70%; /* Further reduce image width for even smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .statsImg {
+        width: 60%; /* Further reduce image width for the smallest screens */
+    }
+}
+
+@media (max-width:750px){
+    .adv-container{
+        padding: 24px 24px;
+    
+    }
+    .analytic {
+        
+        padding: 24px;
+    }
+    
+    }
