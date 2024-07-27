@@ -1,4 +1,4 @@
-# Zooq.app Clone
+# Zooq Clone
 
 This is a clone of Zooq.app developed using React.js and Context API for state management. The project includes payment functionality to enable secure transactions, a user-friendly interface for task management, collaboration, and progress tracking. It is designed to be responsive and compatible across both desktop and mobile devices. The backend is built with Node.js and Express, and MongoDB is used as the database, providing a robust and scalable solution.
 
