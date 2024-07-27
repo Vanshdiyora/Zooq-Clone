@@ -68,10 +68,3 @@ This is a clone of Zooq.app developed using React.js and Context API for state m
     ```
 
 7. Open your browser and navigate to `http://localhost:3000`
-
-## Usage
-
-- **Task Management**: Navigate to the tasks page to create, update, and delete tasks.
-- **Collaboration**: Share tasks with team members by inviting them via email.
-- **Progress Tracking**: Use the progress bar to track task completion.
-- **Payments**: Navigate to the payments page to make secure transactions.
